@@ -15,7 +15,6 @@ function fullGame(){
         let userChoice = prompt('Please enter "Rock", "Paper", or "scissors".', '').toLowerCase().trim()
         while(userChoice != 'rock' && userChoice != 'paper' && userChoice != 'scissors'){
             userChoice = prompt('Your input was not valid.\nPlease enter "Rock", "Paper", or "scissors".', '').toLowerCase().trim()
-            return(gamesPlayed, userScore, computerScore)
         }   
 
         // If statements to find the winner. If it's a tie, return tie.
