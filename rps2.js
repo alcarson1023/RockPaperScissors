@@ -37,7 +37,6 @@ function fullGame(){
         }
         else{
             alert(`User chose: ${userChoice}. Computer chose: ${computerChoice}. Computer wins!`);
-            computerScore ++;
         }
         
         gamesPlayed ++
