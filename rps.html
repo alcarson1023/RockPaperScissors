@@ -5,7 +5,17 @@
         <meta charset='UTF-8'/>
     </head>
     <body>
-        <h3>Runway</h3>
-        <script src='rps.js'></script>
+        <h3>Rock, Paper, Scissors!</h3>
+        <div id='btnBox'>
+        <button class='selection' id="rock">Rock</button>
+        <button class='selection' id="paper">Paper</button>
+        <button class='selection' id="scissors">Scissors</button>
+        </div>
+        <button id='reset' style='display: none'>Ready to play again?</button>
+        <br />
+        <p>Current games: <span id='games'>0</span> out of 5!</p>
+        <span id='results'></span>
+        <p id='winner'></p>
     </body>
 </html>
+<script src='rps2.js'></script>
